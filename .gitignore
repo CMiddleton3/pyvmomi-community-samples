@@ -61,3 +61,8 @@ docs/_build/
 
 # ignore flight recorder YAML file
 */hello_world_vcenter.yaml
+
+# VsCode Stuff
+.history
+.archive
+.version
