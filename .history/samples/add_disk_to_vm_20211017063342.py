@@ -40,7 +40,6 @@ def add_disk(vm, disk_size, disk_type):
         print("Disk SCSI controller not found!")
         return -1
     # add disk here
-    print(unit_number)
     dev_changes = []
     new_disk_kb = int(disk_size) * 1024 * 1024
     disk_spec = vim.vm.device.VirtualDeviceSpec()
